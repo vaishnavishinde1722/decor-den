@@ -22,9 +22,6 @@ background-color: #716040;
 text-align: center;
 
 }
-.header-img-container{
-
-}
 /* Navigatin PART 1 */
 .nav1 {
   display: flex;
@@ -155,7 +152,7 @@ a {
     border-radius: 10px;
   }
   .why-choose-us-heading{
-    margin top: 70px;
+    margin-top: 70px;
   }
   .why-choose-us-container{
     display: flex;
