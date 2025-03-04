@@ -1,4 +1,4 @@
-.body{
+body{
     background-color:#f9f4ef;
     margin: 0;
     padding: 0;
@@ -16,29 +16,37 @@ body {
   color: #020826;
   font-size: 900;
   font-family: "Montserrat", sans-serif;
+  cursor: pointer;
 }
-.page-heading{
-background-color: #716040;
-text-align: center;
 
+.page-heading {
+  height: 20px;
+  text-align: center;
+  width: 100%;
 }
+
+.page-heading p{
+ font-size: 22px;
+}
+
 /* Navigatin PART 1 */
+
 .nav1 {
   display: flex;
   justify-content: space-between;
   padding-top: 5px;
   font-size: 15px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Montserrat";
 }
 
 .navpad {
-  padding: 0px 10px;
+  padding: 0px 20px;
   height: 20px;
   width: 20px;
 }
 .navpadinput {
   width: 200px;
-  height: 20px;
+  height: 22px;
 }
 a {
   text-decoration: none;
@@ -51,7 +59,6 @@ a {
   font-size: larger;
   font-weight: 900;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
 }
 .searchparent {
   display: flex;
@@ -71,19 +78,37 @@ a {
 }
 
 .pacifico-regular {
-  font-family: "Pacifico", cursive;
-  font-weight: 400;
+  font-family:cursive;
+  text-shadow: #8c7851 1px 1px;
+  font-weight: 600;
   font-style: normal;
 }
+
 
 /* Naviation Part3 */
 .nav3 {
   display: flex;
   justify-content: space-around;
-  font-size: 18px;
-  font-weight: 600;
-  font-family: "Montserrat", sans-serif;
+  font-size:19px ;
+  font: weight 700px;
+  font-family: "Montserrat";
 }
+.at:hover{
+  color:#f9f4ef ;
+  cursor: pointer;
+  transition: 0.5s;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #f18930;
+}
+
+
+
+
   .dancing-script{
     font-family: "dancing script",cursive;
   }
@@ -236,6 +261,7 @@ a {
  }
 .heading4{
   font-size: 50px;
+  font-family: "Montserrat", sans-serif;
 }
 
 
