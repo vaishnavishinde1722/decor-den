@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Order Purchasing Form</title>
+    <link rel="stylesheet" href="./../css-pages/purchase.css">
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Order Purchasing Form</h1>
+        
+        <form id="orderForm">
+            <h2>Customer Details</h2>
+            <label for="customerName">Name:</label>
+            <input type="text" id="customerName" required>
+
+            <label for="customerEmail">Email:</label>
+            <input type="email" id="customerEmail" required>
+
+            <label for="customerAddress">Address:</label>
+            <textarea id="customerAddress" required></textarea>
+
+            <h2>Product Details</h2>
+            <label for="productName">Product Name:</label>
+            <input type="text" id="productName" value="Sample Product" required>
+
+            <label for="productPrice">Price:</label>
+            <input type="text" id="productPrice" value="Rs.10999" required >
+
+            <h2>Payment Method</h2>
+            <label for="paymentMethod">Select Payment Method:</label>
+
+
+            <select id="paymentMethod" required>
+                <option value="">Select a payment method</option>
+                <option value="creditCard">Credit Card</option>
+                <option value="paypal">cash on delivary</option>
+                <option value="bankTransfer">Bank Transfer</option>
+            </select>
+            <button type="submit">Place Order</button>
+        </form>
+
+        <div id="confirmationMessage" class="hidden">
+            <h2>Order Confirmation</h2>
+            <p>Your order has been placed successfully!</p>
+        </div>
+    </div>
+
+   
+    <script>
+       /* document.getElementById('orderForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get customer details
+    const customerName = document.getElementById('customerName').value;
+    const customerEmail = document.getElementById('customerEmail').value;
+    const customerAddress = document.getElementById('customerAddress').value;
+    const productName = document.getElementById('productName').value;
+    const productPrice = document.getElementById('productPrice').value;
+    const paymentMethod = document.getElementById('paymentMethod').value;
+
+    // Display confirmation message
+    const confirmationMessage = document.getElementById('confirmationMessage');
+    confirmationMessage.innerHTML = `
+        <h2>Order Confirmation</h2>
+        <p>Thank you, ${customerName}!</p>
+        <p>Your order for <strong>${productName}</strong> has been placed successfully.</p>
+        <p>Total Price: ${productPrice}</p>
+        <p>Payment Method: ${paymentMethod}</p>
+    `});
+    confirmationMessage.class*/
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
