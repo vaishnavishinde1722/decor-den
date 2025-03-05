@@ -40,6 +40,8 @@ body {
   position: fixed;
   right: 20px;
   bottom: 100px;
+ 
+  
   cursor: pointer;
 }
 .icoimg2:hover{
