@@ -1,17 +1,11 @@
-body{
-    background-color:#f9f4ef;
-    margin: 0;
-    padding: 0;
-    
-  }
-  @import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: #f9f4ef;
-  margin: 0px;
-  padding: 0px;
-  width: 100%;
 }
+
 .prim_text {
   color: #020826;
   font-size: 900;
@@ -36,7 +30,7 @@ body {
   justify-content: space-between;
   padding-top: 5px;
   font-size: 15px;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
 }
 
 .navpad {
@@ -80,7 +74,7 @@ a {
 .pacifico-regular {
   font-family:cursive;
   text-shadow: #8c7851 1px 1px;
-  font-weight: 600;
+  font-weight: 700;
   font-style: normal;
 }
 
@@ -89,9 +83,9 @@ a {
 .nav3 {
   display: flex;
   justify-content: space-around;
-  font-size:19px ;
-  font: weight 700px;
-  font-family: "Montserrat";
+  font-size:18px ;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
 }
 .at:hover{
   color:#f9f4ef ;
@@ -107,164 +101,146 @@ a:hover {
 }
 
 
+/* <!-- Header Content 0 -->  */
+.page-heading {
+  text-align: center;
+  background-color: #8c7851;
+  color: black;
+  padding: 16px;
+  width: 98%;
+  font-weight: 900;
+  font-size: larger;
+  margin-bottom: 10px;
+}
 
+/*heaader*/
+header h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
 
-  .dancing-script{
-    font-family: "dancing script",cursive;
-  }
-  .bg-light{
-  
-    background-color: #fef6e4;
-  }
-  .pg-primary{
-    color:#020826 ;
-  }
-  
-  .text-primary{
-    background-color:#f25042;
-  }
-  .text-secondary{
-    background-color:#fffffe;
-  }
-  .text-dark{
-    color:#020826;
-  }
-  .text-center{
-    text-align: center;
-    font-size: 18px;
-  }
-  .btn{
-  
-    padding: 10px 30px;
-    border-radius: 50px;
-    border: none;
-    cursor:pointer;
-    box-shadow: 0 15px 15px #f3d2c1;
-    color: #001858;
-  }
- 
-  
-  .no-underline{
-    text-decoration: none;
-  }
-  .fs-50{
-    font-size: 5px;
-  }
-  .study-card{
-    background-color:#f25042;
-    width:200px;
-    padding: 20px;
-    margin: 20px;
-    border-radius:10px;
-    box-shadow:-5px 5px  10px 1px  #010d2c;
-    border: 1px solid rgb(18, 8, 10);
-    
-  }
-  .study-card:hover{
-    transition: 0.5s;
-    border-radius: 35px;
-    cursor: pointer;
-  
-  }
-  .study-icon{
-    height: 100px;
-  }
-  
-  .subtitle-highlight{
-    background-color: #f25042;
-    font-weight: bold;
-    padding: 2px 1px;
-    border-radius: 10px;
-  }
-  .why-choose-us-heading{
-    margin-top: 70px;
-  }
-  .why-choose-us-container{
-    display: flex;
-    justify-content: space-around;
-    background-color: #f9f4ef;
-    margin: 10px 0px;
-    padding: 20px;
-    }
-  .why-choose-us-card{
-    background-color: #fff;
-    width: 250px;
-    height: 250px;
-    padding: 10px;
-    margin: 20px;
-    border: 1px solid rgb(18, 8, 10);
-    box-shadow: 2px 3px 6px 3px #020826;
-    border-radius:0px 0px 0px 19px;
-    
-  }
-  .why-choose-us-img{
-    height: 100px;
-    display: block;
-    margin: 10px auto;
-    display: flex;
-  }
-  .header-section{
-    display: flex;
-  }
-  .header-img-container{
-    width: 50%;
-  }
-  .header-description-container{
-    width: 50%;
-    padding: 20px;
-  }
-  .header-img{
-     height: 300px;
-     border: 1px solid black;
-     display: block;
-     margin: auto;
-     
-  }
-  .study-card{
-    background-color: #eaddcf;
-  height: 280px;
+/*help button*/
+.help-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.help-button {
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  padding: 10px auto;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.help-button:hover {
+  background-color: #ff4b4b;
+}
+
+.help-button:active {
+  font-size: 12px;
+}
+
+/*cards section*/
+.cards-container-section {
+  margin: 0;
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.cards-container {
+  background-color: #fffffe;
+  height: auto;
+  width: 1200px;
+  display: block;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card {
+  background-color: #eaddcf;
+  height: auto;
   width: 250px;
   padding: 20px;
-  margin: 20px 20px;
-  border-radius: 0px 0px 50px 50px;
+  margin: 25px 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: box-shadow 0.3s ease;
-  }
-  .all-furniture-card:hover {
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
-  }
-  .btn {
-    height: 30px;
-    width: 110px;
-    display: block;
-    text-align: center;
-    margin: auto;
-    text-transform: capitalize;
-    background-color: #8c7851;
-    color: #fffffe;
-    border: none;
-    border-radius: 10px;
-    font-size: 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
-      box-shadow 0.3s ease;
-  }
-  .page-heading{
-    text-align: center;
-    background-color: #8c7851;
-    color: black;
-    padding: 16px;
-    width: 98%;
-    font-weight: 900;
-    font-size: large;
-    margin-bottom: 10px;
- }
-.heading4{
-  font-size: 50px;
+}
+
+.p1 {
+  height:auto;
+  text-align: center;
+  font-size: 14px;
   font-family: "Montserrat", sans-serif;
 }
 
+.p2 {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
 
+.card img {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+/*button*/
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  height: 35px;
+  width: 140px;
+  margin: 0px 10px;
+  text-transform: capitalize;
+  background-color: #8c7851;
+  color: #fffffe;
+  border: none;
+  border-radius: 10px;
+  font-size: 13px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: background-color 0.3s ease, transform 0.2s ease, color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #705a39;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn:active {
+  font-size: 13px;
+  transform: translateY(2px) scale(0.98);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* <!-- <FOOTER></FOOTER> --> */
 
 footer {
   background: #8c7851;
@@ -296,7 +272,7 @@ h3 {
 .list {
   display: block;
   padding: 5px 60px 0px 115px;
-  height: 130px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -355,3 +331,4 @@ a:hover {
   font-size: 16px;
   padding: 7px;
 }
+
