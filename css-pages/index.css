@@ -473,7 +473,7 @@ h3 {
 .list {
   display: block;
   padding: 5px 60px 0px 115px;
-  height: 130px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
